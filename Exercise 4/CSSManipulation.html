@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>CSS Manipulation</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <p id="p">Dummy Text</p>
+    <br />
+    <p>Enter Numbers 0-255</p>
+    <ul>
+      <li>Border</li>
+      <li>red value <input type="text" id="b1" /></li>
+      <li>green value <input type="text" id="b2" /></li>
+      <li>blue value <input type="text" id="b3" /></li>
+      <li>width <input type="text" id="b4" /></li>
+      <br />
+      <li>Background Color</li>
+      <li>red value <input type="text" id="bc1" /></li>
+      <li>green value <input type="text" id="bc2" /></li>
+      <li>blue value <input type="text" id="bc3" /></li>
+    </ul>
+    <button
+      type="button"
+      onclick="changeWidth(document.getElementById('b4').value); 
+      changeBorder(document.getElementById('b1').value,document.getElementById('b2').value,document.getElementById('b3').value);
+      changeBackground(document.getElementById('bc1').value,document.getElementById('bc2').value,document.getElementById('bc3').value)"
+    >
+      Change
+    </button>
+    <button onclick="window.location.reload();">Reset</button>
+    <script src="change.js"></script>
+  </body>
+</html>
