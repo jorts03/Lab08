@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.profileImage {
+  background: url("profileImage.jpg") no-repeat center;
+  background-color: #191970;
+  background-size: 800px;
+  width: 60%;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+
+.profileInfo {
+  background-color: #ff9912;
+  width: 40%;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 32px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  color: #3d59ab;
+  line-height: 100px;
+}
+
+.body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #3d59ab;
+}
+
+.h2 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  color: #3d59ab;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #3d59ab;
+}
+
+a:hover {
+  color: #000000;
+}
