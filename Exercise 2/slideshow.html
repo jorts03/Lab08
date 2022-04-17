@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <style>
+      .next,
+      .prev {
+        width: 90px;
+        height: 40px;
+        font-size: 15px;
+      }
+      .next {
+        float: right;
+      }
+    </style>
+    <title>Picture Slideshow</title>
+  </head>
+
+  <body>
+    <div>
+      <img id="image" height="90%" width="100%" />
+
+      <button class="next" onclick="nextSlide('next')">Next</button>
+      <button class="prev" onclick="nextSlide('previous')">Previous</button>
+    </div>
+
+    <script src="button.js"></script>
+  </body>
+</html>
