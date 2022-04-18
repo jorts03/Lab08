@@ -28,6 +28,11 @@
   line-height: 100px;
 }
 
+.h1:hover {
+  color: #ff9912;
+  background: #3d59ab;
+}
+
 .body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
