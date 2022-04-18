@@ -39,6 +39,11 @@
   color: #3d59ab;
 }
 
+.body:hover {
+  color: #ff9912;
+  background: #3d59ab;
+}
+
 .h2 {
   font-family: "Archivo", sans-serif;
   font-weight: 500;
